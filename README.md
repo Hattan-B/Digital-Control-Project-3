@@ -17,9 +17,9 @@ Author: **Hattan Badya**
 
 **How to Begin With ROS**
 - To be able to use ROS, you first have to create a workspace the will contain all your code. The following code is a sample to create a workspace called (catkin_ws):
-mkdir -p ~/catkin_ws/src
+`mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 catkin_init_workspace
 cd ~/catkin_ws
 catkin_make
-source devel/setup.bash
+source devel/setup.bash`
