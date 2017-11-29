@@ -27,8 +27,12 @@ cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
 ```
-- The next step is to create a pakage in the source file of the workspace. This package will contain the code files:
+- The next step is to create a package in the source file of the workspace. This package will contain the code files:
 ```
 cd ~/catkin_ws/src
 catkin_create_pkg my_code rospy
+```
+- To add the Python scripts to the package, we have to go the source directory of the package we created in the last step:
+```
+cd ~/catkin_ws/src/my_code/src
 ```
