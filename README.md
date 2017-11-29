@@ -40,4 +40,8 @@ cd ~/catkin_ws/src/my_code/src
 ```
 git clone https://github.com/tuf76885/Digital-Control-Project-3
 ```
-
+- Copy and paste the following code to go back to the workspace directory:
+```
+cd ~/catkin_ws
+```
+- Copy and paste the 
