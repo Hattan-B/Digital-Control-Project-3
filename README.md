@@ -36,3 +36,8 @@ catkin_create_pkg my_code rospy
 ```
 cd ~/catkin_ws/src/my_code/src
 ```
+- Copy and paste the following code to access the Rwheel and Rsensor scripts:
+```
+git clone https://github.com/tuf76885/Digital-Control-Project-3
+```
+
