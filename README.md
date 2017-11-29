@@ -6,7 +6,7 @@ Author: **Hattan Badya**
 - The publisher sends the six IR sensors readings from the Roomba.
 - The subscriber receives the IR sensors readings and control the left and right wheels for the Roomba.
 
-![ROSCORE](https://github.com/tuf76885/Digital-Control/blob/master/Block_Pictures/BigSwitch.png)
+![ROSCORE](https://github.com/tuf76885/Digital-Control-Project-3/blob/master/ROS/Screen%20Shot%202017-11-29%20at%204.58.21%20PM.png)
 
 Download the following:
 - fundamental information about Raspberry pi -> refer to the following link(https://www.raspberrypi.org).
