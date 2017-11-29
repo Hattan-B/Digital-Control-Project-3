@@ -3,6 +3,7 @@ The files of this repository are intended to be working on a Raspberry PI so tha
 
 Author: **Hattan Badya**
 
+**Objective of this Repository**
 - The main goal of this project is to create a publisher/subscriber to control the Roomba.
 - The publisher sends the six IR sensors readings from the Roomba.
 - The subscriber receives the IR sensors readings and control the left and right wheels for the Roomba.
