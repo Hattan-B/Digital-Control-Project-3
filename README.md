@@ -10,7 +10,7 @@ Author: **Hattan Badya**
 
 Download the following:
 - fundamental information about Raspberry pi -> refer to the following link(https://www.raspberrypi.org).
-- Ubuntu is a requirement for this project, the installation instruction can be found at the following     link(https://wiki.ubuntu.com/ARM/RaspberryPi).
-- The intructions on how to install ROS/Kinect can be found at the following link(http://wiki.ros.org/Installation/UbuntuARM)
-- Finally the libraries to control the Roomba can be found at the following link(https://pypi.python.org/pypi/pycreate2/0.7.3).
+- We use Ubuntu as the OS for the pi in this project -> the installation instruction can be found at the following     link(https://wiki.ubuntu.com/ARM/RaspberryPi).
+- Installation of ROS/Kinect -> refer to the following link(http://wiki.ros.org/Installation/UbuntuARM)
+- The libraries to manipulate the Roomba -> refer to the following link(https://pypi.python.org/pypi/pycreate2/0.7.3).
 - A good book for reference about ROS is (O'REILLY: Programming Robots with ROS) 
