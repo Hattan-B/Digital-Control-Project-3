@@ -16,7 +16,7 @@ Author: **Hattan Badya**
 - A good book for reference about ROS is (O'REILLY: Programming Robots with ROS) 
 
 **How to Begin With ROS**
-- To be able to use ROS, you first have to create a workspace the will contain all your code. The following code is a sample to create a workspace called (catkin_ws):
+- To be able to use ROS, you first have to create a workspace the will contain all your code. The following code is a sample to create a workspace called (catkin_ws)_:
 ```
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
@@ -24,4 +24,9 @@ catkin_init_workspace
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
+```
+- The next step is to create a pakage in the source file of the workspace. This package will contain the code files:
+```
+cd ~/catkin_ws/src
+catkin_create_pkg my_code rospy
 ```
