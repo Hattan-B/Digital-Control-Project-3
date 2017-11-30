@@ -1,7 +1,7 @@
 # Digital-Control-Project-3
 The files of this repository are intended to be working on a Raspberry PI so that they be can used to manipulate the Roomba.
 
-Author: **Hattan Badya**
+Author: **Hattan Badyah**
 
 **Objective of this Repository**
 - The main goal of this project is to create a publisher/subscriber to control the Roomba.
