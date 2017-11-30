@@ -55,11 +55,11 @@ roscore
 ```
 - The next step is to open a new Terminal window and the run the following command to establish the connection between the roscore and the Rsensor.py script, which is the publisher:
 ```
-rosrun Rsensor.py
+rosrun my_code Rsensor.py
 ```
 - The last step is to open up a third Terminal window and run the following code to connect the publisher with the Rwheel.py script, which is the subscriber:
 ```
-rosrun Rwheel.py
+rosrun my_code Rwheel.py
 ```
 **Code To help in Debugginh**
 - If you want to check the topics available to connect to:
