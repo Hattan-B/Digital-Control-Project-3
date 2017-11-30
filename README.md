@@ -61,7 +61,7 @@ rosrun my_code Rsensor.py
 ```
 rosrun my_code Rwheel.py
 ```
-**Code To help in Debugginh**
+**Code To help in Debugging**
 - If you want to check the topics available to connect to:
 ``` 
 rostopic list
