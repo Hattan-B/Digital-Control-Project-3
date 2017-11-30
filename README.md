@@ -44,4 +44,34 @@ git clone https://github.com/tuf76885/Digital-Control-Project-3
 ```
 cd ~/catkin_ws
 ```
-- Copy and paste the 
+- Copy and paste the following code to source your new setup.bash file:
+```
+source devel/setup.bash
+```
+**After completeing the last step, follow the following procedure to run the publisher and subscriber for the Roomba:**
+- In the current Terminal window, type in the following command:
+```
+roscore
+```
+- The next step is to open a new Terminal window and the run the following command to establish the connection between the roscore and the Rsensor.py script, which is the publisher:
+```
+rosrun Rsensor.py
+```
+- The last step is to open up a third Terminal window and run the following code to connect the publisher with the Rwheel.py script, which is the subscriber:
+```
+rosrun Rwheel.py
+```
+**Code To help in Debugginh**
+- If you want to check the topics available to connect to:
+``` 
+rostopic list
+```
+- To check the message published by publisher:
+```
+rostopic echo Rsensor
+```
+- To find information about the topic:
+```
+rostopic info Rsensor
+```
+
