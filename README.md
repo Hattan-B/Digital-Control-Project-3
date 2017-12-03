@@ -74,4 +74,6 @@ rostopic echo Rsensor
 ```
 rostopic info Rsensor
 ```
-
+**Demonstration**
+- The following link shows the demonstration of Project 3
+https://www.youtube.com/watch?v=Bh0nK3tQPCs
